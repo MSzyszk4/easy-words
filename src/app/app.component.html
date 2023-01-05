@@ -5,13 +5,13 @@
   <div class="col s6">
     <app-answers
       title="Nouns (rzeczowniki)"
-      [words]="nouns"
+      [word]="nouns | async"
     ></app-answers>
   </div>
   <div class="col s6">
     <app-answers
       title="Verbs (czasowniki)"
-      [words]="verbs"
+      [word]="verbs | async"
     ></app-answers>
   </div>
 </div>
